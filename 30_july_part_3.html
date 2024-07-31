@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div:nth-child(1) >p{
+            background-color: orange;
+        }
+       div div{
+        background-color: green;
+       }
+       div+p{
+        background-color: aqua;
+       }
+    </style>
+</head>
+<body>
+    <!-- div*2>p>div$*2+p{Hello} -->
+     <div>
+        <p>
+            <div>1</div>
+            <div>2</div>
+            <p>hello</p>
+        </p>
+    </div>
+    <div>
+        <p>
+            <div>1</div>
+            <div>2</div>
+            <p>hello</p>
+        </p>
+    </div>
+</body>
+</html>
