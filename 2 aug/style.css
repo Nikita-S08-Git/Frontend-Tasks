@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   /*justify use in main axis as row in position change*/
+    align-items: center;       /*Align-items use in cross axis as column in position change*/
+}
+.box{
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 10px;
+}
