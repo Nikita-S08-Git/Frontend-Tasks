@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 100px;
+}
+nav{
+    padding: 20px;
+    display: flex;
+ align-items: center;
+ justify-content: space-around;
+ box-shadow: 5px 5px 15px lightblue;
+}
+.nav-tools ul{ 
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: gray;
+}
+.enquire-btn > button,.btn-container>button{
+    background: rgb(230,233,40);
+background: linear-gradient(90deg, rgba(230,233,40,1) 0%,
+ rgba(253,106,29,1) 50%,
+ rgba(253,48,31,1) 100%); 
+    padding: 15px 15px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+
+}
+li{
+    list-style: none;
+}
+li:hover{
+    color:navy;
+}
+select{
+    text-transform: uppercase;
+    border: none;
+    font-size: 16px;
+    color: gray;
+    background: transparent;
+}
+select:hover{
+    color: navy;
+}
+main{
+min-height: 400px;
+padding: 50px;
+display: flex;
+justify-content: center;
+}
+form{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+background: #ffffff;
+box-shadow:  20px 20px 40px lightblue,-20px -20px 40px #ffffff;
+}
+.input-container{
+    height: 250px;
+  font-style: inherit;
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;  
+  gap:20px;
+}
+.btn-container{
+ display: flex;
+justify-content: center;
+ margin: 15px;
+ padding: 15px;
+}
+.btn-container>button{
+    padding: 10px 15px;
+     
+}
+input{
+    padding: 20px;
+    border: 2px solid black;
+}
