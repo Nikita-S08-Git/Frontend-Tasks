@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(0, 255, 0);
+    width: 500px;
+    height: 500px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+     /* justify-content: space-around; */
+     /* justify-content: space-evenly; */
+     /* justify-content:space-between ;  use box madhe space   */
+     
+     /* display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+     gap: 20px 40px;
+     justify-content: center; */
+}
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(242, 211, 37);
+    border: 1px solid black;
+    border-radius: 20%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b3{
+    background-color: red;
+    order: 1;
+}
+#b4{
+    background-color: aliceblue;
+    order: -1;
+}
+#b2{
+    align-self: flex-start;
+    flex-grow: 2;
+}
+#b3{
+    align-self: flex-end;
+}
+#b4{
+    align-self: flex-end;
+}
